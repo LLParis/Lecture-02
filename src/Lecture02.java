@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Lecture02 {
     public static void main(String[] args) {
         System.out.println("Hello from lecture 02");
@@ -8,10 +10,21 @@ class Lecture02 {
         // Put your answer for #1 here:
         // 1. What is an ArrayList? In what cases should you use an ArrayList rather
         // than an array?
+        // An ArrayList is a data structure very similar to Arrays, however, it is resizable.
+        // Cases when you should use an ArrayList over an Array are:
+        // When you're unsure of how many elements you will have or need
+        // When you value built-in methods and convenience over raw performance
 
         // Put your answer for #3 here:
         // 3. Write the code to declare an ArrayList containing these elements. What is
         // the size of the list? What is its type?
+        ArrayList<String> list = new ArrayList<>(Arrays.asList("It", "was", "a", "stormy", "night"));
+
+        // The current size of the list is 5
+        // The type of the list is String
+        for (String str : list) {
+            System.out.print( str + " ");
+        }
 
         // Put your answer for #4 here:
         // 4. Write code to insert two additional elements, "dark" and "and", at the
