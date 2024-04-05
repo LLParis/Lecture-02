@@ -62,7 +62,8 @@ class Lecture02 {
         // Put your answer for #14 here:
         // 14. What is a wrapper class? Describe the difference between an int and an
         // Integer.
-        // A wrapper class is used because Java treats everything like an object except for primitive data types
+        // A wrapper class is used because Java treats everything like an object except for primitive data types.
+        // So we encapsulate the primitive data type with a Wrapper class which gives it an object's appearance.
 
 
         // Put your answer for #13 here:
@@ -83,19 +84,19 @@ class Lecture02 {
          ArrayList<Integer> listB = new ArrayList<>(Arrays.asList(30, 20, 10, 60, 50, 40));
          ArrayList<Integer> listC = new ArrayList<>(Arrays.asList(-4, 16, 9, 1, 64, 25, 36, 4, 49));
 
-        // A. [1, 2, 6, 8]
+        // A. *[1, 2, 6, 8]*
         // B. [40, 30, 20, 10, 60, 50]
         // B. [40, 30, 20, 10, 60, 50]
         // B. [10, 40, 30, 20, 60, 50]
         // B. [30, 10, 40, 20, 60, 50]
-        // B. [10, 30, 40, 20, 60, 50]
-
+        // B. *[10, 30, 40, 20, 60, 50]*
         // C. [-4, 16, 9, 1, 64, 25, 36, 4, 49]
         // C. [4, -4, 16, 9, 1, 64, 25, 36, 49]
         // C. [25, 4, -4, 16, 9, 1, 64, 36, 49]
         // C. [1, 25, 4, -4, 16, 9, 64, 36, 49]
         // C. [1, 25, 4, -4, 16, 9, 64, 36, 49]
-        // C. [-4, 1, 25, 4, 16, 9, 64, 36, 49]
+        // C. *[-4, 1, 25, 4, 16, 9, 64, 36, 49]*
+
         mystery1(listA);
         mystery1(listB);
         mystery1(listC);
